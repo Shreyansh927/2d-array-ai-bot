@@ -267,6 +267,8 @@ const App = () => {
             )}
           </li>
         ))}
+
+        <h1>have fun</h1>
       </ul>
     </div>
   );
