@@ -1,0 +1,33 @@
+@keyframes typingEffect {
+  from {
+    opacity: 0;
+    transform: translateY(510px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(50px);
+  }
+}
+.animate-typing {
+  animation: typingEffect 1s ease-in-out;
+}
+
+.full-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.main-page {
+  position: relative;
+}
+
+.search-box {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 10%;
+}
